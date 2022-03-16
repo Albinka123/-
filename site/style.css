@@ -1,0 +1,138 @@
+@import url("fonts/Asap/font-asap.css");
+@import url("fonts/Droid_Sans/font-droid-sans.css");
+@import url("fonts/Oleo_Script/font-oleo-script.css");
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wrapper-header {
+    width: 100%;
+}
+
+.header-title {
+    color: #fff;
+    width: 120px;
+    /* text-align: start; */
+}
+
+.header {
+	height: 100%;
+	/* max-width: 900px; */
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    background-image: linear-gradient(white 0%, dodgerblue 80%);
+
+}
+
+.big-box {
+	position: absolute;	
+	right: 20px;
+	bottom: 20px;
+}
+
+.social-network {
+	display: flex;
+    justify-content: flex-end;
+	padding-bottom: 5px;
+}
+
+.social {
+	width: 25px;
+	height: 25px;
+}
+
+.social+.social {
+	margin-left: 10px;
+}
+
+.links {
+	color: white;
+	font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    height: 100%;
+    background-color: #0f0f38;
+}
+
+.gallery-1 {
+    margin: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    max-height: 450px;
+}
+
+.gallery-2 {
+    margin: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    max-height: 450px;
+}
+
+.img {
+    width: 381px;
+    height: 225px;
+    margin: 0;
+    padding: 0;
+}
+
+.greetings {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gr-hi {
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.gr-pr {
+    font-size: 30px;
+}
+
+.shrimp {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-image: linear-gradient(royalblue, darkblue);
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.fish {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding-right: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.shrimp-title, .shrimp-text-up, .shrimp-text-down, .shrimp-button {
+    margin: 5px;
+}
+
